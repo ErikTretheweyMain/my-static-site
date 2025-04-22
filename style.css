@@ -3,49 +3,82 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f4f8;
-    color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color for readability */
+    padding: 20px;
+}
+
+/* Header & Navigation Styles */
+header {
+    background-color: #333; /* Dark background for the header */
+    padding: 10px 0;
+    margin-bottom: 20px; /* Space below the header */
+}
+
+nav ul {
+    list-style: none;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 2rem;
+    justify-content: center; /* Center the links horizontally */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between the links */
+}
+
+nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Yellow color on hover */
+}
+
+/* Page Title */
+h1 {
     text-align: center;
-  }
-  
-  header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  header p {
-    font-size: 1.2rem;
-    color: #666;
-    margin-bottom: 2rem;
-  }
-  
-  .hero-image {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
-  }
-  
-  main p a {
-    font-weight: bold;
-    color: #0078d7;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Paragraph Styles */
+p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Image Styles */
+.hero-image {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* Links */
+a {
+    color: #333;
     text-decoration: none;
-  }
-  
-  main p a:hover {
-    text-decoration: underline;
-  }
-  
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+/* Contact Page */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
