@@ -1,1 +1,2 @@
-console.log("Tracker.js is working!");
+alert("JavaScript is connected!");
+
